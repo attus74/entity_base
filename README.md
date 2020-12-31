@@ -7,7 +7,7 @@ src\Entity\CustomEntity.php:
 ```php
  * @ContentEntityType(
  *   handlers = {
- *     "storage" = "Drupal\enttiy_base\EntityBaseStorage",
+ *     "storage" = "Drupal\entity_base\EntityBaseStorage",
  *   }
  * )
 ```
