@@ -1,2 +1,17 @@
-# entity_base
-Drupal Entity Base Module
+# Entity Base
+Drupal 8-9 Entity Base Module
+
+## Load by UUID
+
+src\Entity\CustomEntity.php:
+```php
+ * @ContentEntityType(
+ *   handlers = {
+ *     "storage" = "Drupal\enttiy_base\EntityBaseStorage",
+ *   }
+ * )
+```
+
+```php
+$entity = \Drupal::entityTypeManager()->getStorage('custom_entity')->loadByUuid($uuid);
+```
