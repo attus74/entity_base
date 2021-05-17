@@ -15,3 +15,5 @@ src\Entity\CustomEntity.php:
 ```php
 $entity = \Drupal::entityTypeManager()->getStorage('custom_entity')->loadByUuid($uuid);
 ```
+
+You are free to use this module without any restriction but without any warranty.
