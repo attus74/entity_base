@@ -1,18 +1,17 @@
 {
   "name": "attus/entity_base",
   "description": "Drupal Entity Base Module",
-  "type": "attus-module",
+  "type": "drupal-module",
   "authors": [
     {
       "name": "Attila Németh",
+      "role": "developer",
       "email": "attus@germanicus.hu"
     }
   ],
   "require": {
     "php": "^7.1",
-    "drupal/core":"^8.9 || ^9",
-    "attus/installer": "^1"
+    "drupal/core":"^8.9 || ^9.1"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "license": "GPL-3.0-or-later"
 }
