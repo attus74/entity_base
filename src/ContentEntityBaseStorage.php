@@ -3,15 +3,15 @@
 namespace Drupal\entity_base;
 
 use Drupal\Core\Entity\Sql\SqlContentEntityStorage;
-use Drupal\entity_base\EntityBaseStorageInterface;
+use Drupal\entity_base\ContentEntityBaseStorageInterface;
 
 /**
- * Entity Base Storage
+ * Content Entity Base Storage
  *
  * @author Attila Németh
  * 20.04.2020
  */
-class EntityBaseStorage extends SqlContentEntityStorage implements EntityBaseStorageInterface {
+class ContentEntityBaseStorage extends SqlContentEntityStorage implements ContentEntityBaseStorageInterface {
     
   /**
    * {@inheritdoc}
@@ -20,7 +20,7 @@ class EntityBaseStorage extends SqlContentEntityStorage implements EntityBaseSto
     $entities = $this->loadByProperties([
       'uuid' => $uuid,
     ]);
-    // It's impossible to have more than one Results, it's either one or zero.
+    // It's impossible to have more than one results, it's either one or zero.
     if (count($entities)) {
       return current($entities);
     }
