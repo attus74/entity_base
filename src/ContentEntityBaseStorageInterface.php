@@ -10,7 +10,7 @@ use Drupal\Core\Entity\ContentEntityStorageInterface;
  * @author Attila Németh
  * 20.04.02020
  */
-interface EntityBaseStorageInterface extends ContentEntityStorageInterface {
+interface ContentEntityBaseStorageInterface extends ContentEntityStorageInterface {
   
   /**
    * Load an Entity by UUID
