@@ -1,7 +1,8 @@
 # Entity Base
-Drupal 8/9 Entity Base Module
 
-## Load by UUID
+Drupal 9-10 Entity Base Module
+
+## Apply for custom Content or Config Entity Types
 
 src\Entity\CustomContenEntity.php:
 ```php
@@ -10,10 +11,6 @@ src\Entity\CustomContenEntity.php:
  *     "storage" = "Drupal\entity_base\ContentEntityBaseStorage",
  *   }
  * )
-```
-
-```php
-$entity = \Drupal::entityTypeManager()->getStorage('custom_content_entity')->loadByUuid($uuid);
 ```
 
 src\Entity\CustomConfigEntity.php:
@@ -25,8 +22,11 @@ src\Entity\CustomConfigEntity.php:
  * )
 ```
 
+## Load By UUID
+
 ```php
-$entity = \Drupal::entityTypeManager()->getStorage('custom_config_entity')->loadByUuid($uuid);
+$myContentEntity = \Drupal::entityTypeManager()->getStorage('custom_content_entity')->loadByUuid($uuid);
+$myConfigEntity = \Drupal::entityTypeManager()->getStorage('custom_config_entity')->loadByUuid($uuid);
 ```
 
 You are free to use this module without any restriction but without any warranty.
