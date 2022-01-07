@@ -2,6 +2,11 @@
 
 Drupal 9-10 Entity Base Module
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/attus74/entity_base/graphs/commit-activity)
+[![GitHub license](https://img.shields.io/github/license/attus74/entity_base.svg)](https://github.com/attus74/entity_base/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/attus74/entity_base.svg)](https://GitHub.com/attus74/entity_base/releases/)
+[![GitHub issues](https://img.shields.io/github/issues/attus74/entity_base.svg)](https://GitHub.com/attus74/entity_base/issues/)
+
 ## Apply for custom Content or Config Entity Types
 
 src\Entity\CustomContenEntity.php:
