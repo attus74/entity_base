@@ -1,6 +1,6 @@
 # Entity Base
 
-Drupal 9-10 Entity Base Module
+Drupal 10 Entity Base Module
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/attus74/entity_base/graphs/commit-activity)
 [![GitHub license](https://img.shields.io/github/license/attus74/entity_base.svg)](https://github.com/attus74/entity_base/blob/master/LICENSE)

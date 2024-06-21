@@ -4,6 +4,6 @@
 name: Entity Base
 description: Entity Base Module
 type: module
-core_version_requirement: ^9.2 || ^10.0
+core_version_requirement: ^10.2 || ^11.0
 package: Entity
-version: 2.1
+version: 2.2
