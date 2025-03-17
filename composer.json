@@ -20,5 +20,6 @@
   "require": {
     "drupal/core": "^10.2 || ^11.0"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "abandoned": "drupal/core"
 }
